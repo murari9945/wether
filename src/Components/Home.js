@@ -16,7 +16,7 @@ const Home = () => {
     const [selectedSuggestion, setSelectedSuggestion] = useState('farmers'); // Default to farmers
 
     const apiKey = '6882af6f23bb43d8ad063948241007'; // Replace with your actual API key
-    const weatherAPI = 'http://api.weatherapi.com/v1';
+    const weatherAPI = 'https://api.weatherapi.com/v1';
     const forecastAPI = `${weatherAPI}/forecast.json`;
 
     useEffect(() => {
